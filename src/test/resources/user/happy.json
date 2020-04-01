@@ -1,0 +1,44 @@
+{
+  "scenarioName": "Validate the GET api @@Richard",
+  "steps": [
+    {
+      "name": "get_user_details",
+      "url": "/users",
+      "method": "GET",
+      "request": {
+        "headers" : {
+          "Content-Type" : "application/json"
+        }
+      },
+      "verify": {
+        "status": 200,
+        "headers" : {
+          "Content-Type" : [ "application/json; charset=utf-8" ]
+        },
+        "body": [
+          {
+            "id": 1,
+            "userName": "hpotter",
+            "fName": "harry",
+            "mName": "james",
+            "lName": "potter"
+          },
+          {
+            "id": 3,
+            "userName": "ronweasley",
+            "fName": "ronald",
+            "mName": "",
+            "lName": "weasley"
+          },
+          {
+            "id": 4,
+            "userName": "crookshanks",
+            "fName": "hermione",
+            "mName": "",
+            "lName": "granger"
+          }
+        ]
+      }
+    }
+  ]
+}
