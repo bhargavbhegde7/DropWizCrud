@@ -21,7 +21,7 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://svn.mycompany.com/repos/myapplication/trunk/mycomponent/</developerConnection>
+        <developerConnection>scm:git:https://github.com/bhargavbhegde7/DropWizCrud</developerConnection>
     </scm>
 
     <dependencies>
