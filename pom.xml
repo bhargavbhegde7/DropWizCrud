@@ -4,7 +4,7 @@
 
     <groupId>com.crud.dropwiz</groupId>
     <artifactId>DropWizCrud</artifactId>
-    <version>3.2-SNAPSHOT</version>
+    <version>3.4-SNAPSHOT</version>
 
     <properties>
         <dropwizard.version>2.0.0</dropwizard.version>
