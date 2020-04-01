@@ -4,7 +4,7 @@
 
     <groupId>com.crud.dropwiz</groupId>
     <artifactId>DropWizCrud</artifactId>
-    <version>3.6</version>
+    <version>3.7-SNAPSHOT</version>
 
     <properties>
         <dropwizard.version>2.0.0</dropwizard.version>
@@ -24,7 +24,7 @@
         <developerConnection>scm:git:http://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/bhargavbhegde7/DropWizCrud</developerConnection>
         <!--<url>github.com/bhargavbhegde7/DropWizCrud</url>-->
        <!-- <tag>DropWizCrud-3.0</tag>-->
-    <tag>DropWizCrud-3.6</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <dependencies>
