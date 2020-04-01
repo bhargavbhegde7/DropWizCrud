@@ -6,6 +6,7 @@ import com.crud.dropwiz.user.dao.impl.UserDAOImpl;
 import com.crud.dropwiz.user.model.User;
 import com.crud.dropwiz.user.service.UserService;
 import com.crud.dropwiz.user.service.UserServiceImpl;
+import com.learn.calc.Adder;
 import io.dropwizard.Application;
 import io.dropwizard.db.PooledDataSourceFactory;
 import io.dropwizard.hibernate.HibernateBundle;
@@ -44,7 +45,8 @@ public class MainWebApp extends Application<AppConfig>
 
     public static void main(String[] args) throws Exception
     {
-        new MainWebApp().run(args);
-        System.out.println("Hello, world!");
+        //new MainWebApp().run(args);
+        Adder adder = new Adder();
+        System.out.println(adder.add(3,4));
     }
 }
