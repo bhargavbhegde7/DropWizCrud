@@ -19,8 +19,10 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/bhargavbhegde7/DropWizCrud</developerConnection>
-      <tag>DropWizCrud-2.0</tag>
+        <!--suppress UnresolvedMavenProperty -->
+        <connection>scm:git:http://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@github.com/bhargavbhegde7/DropWizCrud</connection>
+        <url>github.com/bhargavbhegde7/DropWizCrud</url>
+        <tag>DropWizCrud-2.0</tag>
   </scm>
 
     <dependencies>
