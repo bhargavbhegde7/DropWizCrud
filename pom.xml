@@ -4,7 +4,7 @@
 
     <groupId>com.crud.dropwiz</groupId>
     <artifactId>DropWizCrud</artifactId>
-    <version>3.1-SNAPSHOT</version>
+    <version>3.2-SNAPSHOT</version>
 
     <properties>
         <dropwizard.version>2.0.0</dropwizard.version>
@@ -133,11 +133,11 @@
             <id>libs-release-local</id>
             <url>http://192.168.1.4:8082/artifactory/libs-release-local</url>
         </repository>
-        <snapshotRepository>
+        <!--<snapshotRepository>
             <id>libs-snapshot-local</id>
-            <!-- CHANGE HERE by your team nexus server -->
+            &lt;!&ndash; CHANGE HERE by your team nexus server &ndash;&gt;
             <url>http://192.168.1.4:8082/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
+        </snapshotRepository>-->
     </distributionManagement>
 
 
