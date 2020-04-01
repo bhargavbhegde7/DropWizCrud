@@ -45,5 +45,6 @@ public class MainWebApp extends Application<AppConfig>
     public static void main(String[] args) throws Exception
     {
         new MainWebApp().run(args);
+        System.out.println("Hello, world!");
     }
 }
