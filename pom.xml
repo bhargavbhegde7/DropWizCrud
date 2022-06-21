@@ -9,7 +9,7 @@
     <properties>
         <dropwizard.version>2.0.0</dropwizard.version>
         <junit.version>4.13.1</junit.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <mavenshadeplugin.version>2.3</mavenshadeplugin.version>
         <mavenjarplugin.version>2.4</mavenjarplugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
